@@ -1,5 +1,4 @@
-# FMCW-LiDAR-QD-Photodetector
-# Theoretical Development of Ag2Te Quantum Dot Photodetector for FMCW LiDAR in Autonomous Vehicles
+# Simulations of Ag2Te Quantum Dot Photodetector Using Density Functional Theory
 
 ## Project Overview
 This repository contains the ongoing research and development of an Ag2Te Quantum Dot (QD) photodetector specifically tailored for Frequency-Modulated Continuous-Wave (FMCW) LiDAR systems. The current phase of the project heavily focuses on theoretical materials modeling, optical component design, and foundational experimental validation. 
