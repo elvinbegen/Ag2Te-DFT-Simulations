@@ -1,0 +1,28 @@
+Global Parameters
+ISTART =  0            (Read existing wavefunction, if there)
+ICHARG =  2         (Non-self-consistent: GGA/LDA band structures)
+LREAL  = .FALSE.       (Projection operators: automatic)
+ENCUT  =  500        (Cut-off energy for plane wave basis set, in eV)
+PREC   =  Normal   (Precision level: Normal or Accurate, set Accurate when perform structure lattice relaxation calculation)
+LWAVE  = .T.        (Write WAVECAR or not)
+LCHARG = .T.        (Write CHGCAR or not)
+ADDGRID= .F.        (Increase grid, helps GGA convergence)
+LASPH = .T.
+
+Electronic Relaxation
+ISMEAR =  0            (Gaussian smearing, metals:1)
+SIGMA  =  0.05         (Smearing value in eV, metals:0.2)
+NELM   =  150           (Max electronic SCF steps)
+EDIFF  =  1E-06        (SCF energy convergence, in eV)
+ALGO = Normal
+
+Ionic Relaxation
+NSW    =  0          (Max ionic steps)
+IBRION =  -1            (Algorithm: 0-MD, 1-Quasi-New, 2-CG)          
+ISYM =  -1            (Symmetry: 0=none, 2=GGA, 3=hybrids)
+KPAR = 4
+
+LSORBIT = .T.
+LNONCOLLINEAR = .T.
+IVDW = 12
+LMAXMIX = 4
