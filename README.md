@@ -156,7 +156,7 @@ Ag2Te-DFT-Simulations/
 │       ├── HSE06_Band_Calculation/    ← zero-weight HSE06+SOC band run inputs
 │       └── PBE_Band_Calculation/      ← PBE+SOC bands (starting WAVECAR) + plot script
 ├── scripts/                           ← data-processing utilities
-└── tetragonal_archived/               ← early PBE exploration (see its README)
+└── tetragonal/                        ← early PBE exploration (see its README)
 ```
 
 Only VASP inputs (INCAR, KPOINTS, POSCAR) and processed results are stored. Large outputs (WAVECAR, CHGCAR, vasprun.xml) are not included.
