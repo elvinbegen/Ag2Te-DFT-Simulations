@@ -1,4 +1,6 @@
-# Density Functional Theory (DFT) Calculations
+# Tetragonal Ag2Te: early PBE calculations (archived)
+
+> **Archived.** This was an early PBE exploration of the tetragonal phase. The main results use monoclinic β-Ag₂Te with HSE06+SOC. See the [main README](../README.md).
 
 This directory contains the computational materials science workflow for modeling Ag2Te. The calculations are executed using VASP to evaluate the structural, electronic, and optical characteristics of the material. The workflow is structured into four sequential stages: initial structural relaxation, state density evaluation, band structure extraction, and optical property calculation. A data alignment process is applied to the optical outputs, with a pending scissor operator correction planned to adjust the fundamental bandgap before utilizing the parameters in device-level simulations.
 

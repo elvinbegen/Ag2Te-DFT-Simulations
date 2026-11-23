@@ -150,13 +150,13 @@ The model built only from our DFT inputs predicts **3.81 nm**, compared with **3
 Ag2Te-DFT-Simulations/
 ├── README.md                          ← this report
 ├── figures/                           ← figures used above
-├── 02-Monoclinic Phase/               ← β-Ag₂Te (P2₁/c), main results
+├── monoclinic/                        ← β-Ag₂Te (P2₁/c), main results
 │   ├── 01_Geometry_Optimization/      ← HSE06 + D3 relaxation inputs
 │   └── 02_Band_Calculation/
 │       ├── HSE06_Band_Calculation/    ← zero-weight HSE06+SOC band run inputs
 │       └── PBE_Band_Calculation/      ← PBE+SOC bands (starting WAVECAR) + plot script
-├── 01-Tetragonal Phase/               ← earlier PBE exploration (archived, see its README)
-└── Scripts/                           ← data-processing utilities
+├── scripts/                           ← data-processing utilities
+└── tetragonal_archived/               ← early PBE exploration (see its README)
 ```
 
 Only VASP inputs (INCAR, KPOINTS, POSCAR) and processed results are stored. Large outputs (WAVECAR, CHGCAR, vasprun.xml) are not included.
