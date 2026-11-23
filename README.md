@@ -1,6 +1,6 @@
 # Size-Dependent Bandgap of β-Ag₂Te Quantum Dots for 1550 nm Photodetection from First-Principles Inputs
 
-**Part of:** FMCW LiDAR with a colloidal-QD photodetector (MSc thesis)
+**Part of:** Optimization of FMCW LiDAR Systems for Autonomous Vehicles Using Quantum Dot Based Photodetectors (MSc thesis)
 **Tools:** VASP (HSE06 + SOC + D3), VASPKIT, SeeK-path, Python (NumPy, SciPy, Matplotlib)
 
 ---
